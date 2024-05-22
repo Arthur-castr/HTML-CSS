@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio07</title>
+</head>
+<body>
+    <h1>Imagem fluida</h1>
+    <p>aqui a <strong>dimensão da imagem</strong> vai se adequar ao tamanho do monitor</p>
+    <picture>
+        <source media="(max-width: 550px )" srcset="Imagens/ninjaP.jpg" type="image/jpg">
+        <source media="(max-width: 850px )" srcset="Imagens/ninjaM.jpg" type="image/jpg">
+        <img src="Imagens/ninjaG.jpg" alt="imagem fluida">
+    </picture>
+    <h1>Audio</h1>
+    <p>reproduzindo a baixo</p>
+    <audio preload="auto" controls autoplay >
+        <source src="audios/Take Me Out To The Ballgame - Freedom Trail Studio.mp3" type="audio/mpeg">
+
+    </audio>
+    
+</body>
+</html>
